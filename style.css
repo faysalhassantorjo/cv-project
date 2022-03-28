@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #EEE;
+    font-family: 'Red Hat Mono', monospace;
+
+}
+
+.container{
+    max-width: 1000px;
+    background-color: #134b41;
+    margin: 0 auto;
+    padding: 10px;
+}
+.profile{
+     height: 120px;
+     width: 100px;
+     border: 2px solid black;
+     border-radius: 50%;
+     float: left;
+}
+.header-bio{
+    float: left;
+    padding : 10px;
+}
+h1,h2,h3,h4,h5,h6{
+    color: #0eeff7;
+}
+.header-contact{
+    float: right;
+    padding: 30px;
+}
+.header-contact a{
+    text-decoration: none;
+    color: rgb(0, 128, 17);
+    font-weight: bold;
+}
+.header-contact a:hover{
+    text-decoration: underline;
+    color: red;
+}
+.dev-clear{
+    clear: both;
+}
+hr{
+    border: solid black 3px;
+    width: 100%;
+    margin: 20px auto;
+    border-bottom: none;
+
+}
+
+/*----------------
+personal section 
+------------------*/
+#personal-section{
+    background-color: none;
+
+}
+.content{
+   margin-bottom: 30px;
+   background-color: none;
+ 
+}
+.left-div{
+      width: 30%;
+      float: left;
+}
+.right-div{
+      width: 70%;
+      float: left;
+
+}
+.common-hr{
+    border: solid black 1px;
+    margin: 40px auto;
+    width: 100%;
+    border-bottom: none;
+}
+/*-------------------
+Work Experience
+--------------------*/
+
+
